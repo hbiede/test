@@ -14,4 +14,4 @@ jobs:
       - name: Review Code
         uses: dmsi-io/gha-code-review@todo-reviewer
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GHA_TOKEN }}
