@@ -1,0 +1,15 @@
+name: Test
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Review Code
+        uses: dmsi-io/gha-code-review@todo-reviewer
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
