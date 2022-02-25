@@ -1,5 +1,4 @@
-// TODO: ABC-123
-console.log('test'); // TODO: ABC-123
+console.log('test');
 //TODO: ABC-123
 
 
